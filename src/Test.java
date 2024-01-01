@@ -9,6 +9,8 @@ public class Test {
 		System.out.println(taro.age);
 
 //		コンストラクタ2を使ったインスタンス化
+//		1と違う書き方をしているが同じ意味合いである
+//		(“jiro”,20)に合う型を Person クラスで 作成する。今回だと(String name,int age)を作成。
 		Person jiro = new Person("jiro", 20);
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
